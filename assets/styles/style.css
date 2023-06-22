@@ -13,7 +13,7 @@
   --font-semi: 600;
   /*===== Colores =====*/
   --first-color: #b0e0e6;
-  --body-bg: #87cefa;
+  --body-bg: #ff4500;
   /*===== typography =====*/
   --body-font: "Changa", sans-serif;
   --Otaku: "Otaku Rant";
@@ -158,8 +158,8 @@ img:not(.nav-logo, .no) {
 
 a.button {
   padding: 16px 32px;
-  background: #89cff0;
-  font-family: "Work Sans", sans-serif;
+  background: #ff8c00;
+  font-family: var(--Otaku);
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -169,7 +169,7 @@ a.button {
 
 a.button:hover {
   background: white;
-  color: #89cff0;
+  color: #ff8c00;
 }
 
 .pad-50 {
@@ -260,14 +260,14 @@ main #about .container h1.title::before {
   position: absolute;
   width: 246px;
   height: 98px;
-  background: #b0e0e6;
+  background: #ff8c00;
   border-radius: 20px;
 }
 @media (max-width: 700px) {
   main #about .container h1.title::before {
     width: 158px;
     height: 59.79px;
-    background: #b0e0e6;
+    background: #ff8c00;
     border-radius: 16px;
   }
 }
@@ -282,7 +282,7 @@ main #about .container .in {
 }
 main #about .container .in .inn {
   width: 100%;
-  background-color: #6dc0f3;
+  background-color: #ff7f50;
   border-radius: 20px;
   padding: 45px 25px;
 }
@@ -294,8 +294,9 @@ main #about .container .in .inn {
 main #about .container .in .inn div p {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 140%;
+  font-family: var(--Otaku);
 }
 main #gallery {
   width: 100%;
