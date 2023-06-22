@@ -309,6 +309,10 @@ main #gallery h1.title {
   line-height: 120%;
   text-align: center;
 }
+main #gallery img {
+  border-radius: 12px;
+  width: 90%;
+}
 main #tokenomics {
   width: 100%;
 }
@@ -318,7 +322,7 @@ main #tokenomics {
   }
 }
 main #tokenomics .logo {
-  max-width: 25rem;
+  width: 25rem;
 }
 @media (max-width: 700px) {
   main #tokenomics .logo {
